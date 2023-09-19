@@ -1,6 +1,9 @@
 //cartas estraidas do BD https://ratemyserver.net
 //código usado em inspecioar>console
-//    $$(".btext tbody tr td:nth-child(2)").map(item => item.textContent.split("#")[1]).filter(item => item).map(item => Number(item.split(" ")[1]))
+//-------------------CODIGO--------------------
+
+$$(".btext tbody tr td:nth-child(2)").map(item => item.textContent.split("#")[1]).filter(item => item).map(item => Number(item.split(" ")[1]))
+
 //Criado por Fábio de Andrade.
 
 //--------------------CARDS HEADGEARS----------------------------
